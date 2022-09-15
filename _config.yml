@@ -1,4 +1,4 @@
-title: ARSLA - Recherche d'un praticien
+title: ARSLA
 email: arsla@gageot.net
 timezone: UTC
 description: >-
@@ -9,9 +9,8 @@ url: "https://arsla-org.github.io"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-# author: Sal
+author: David
 paginate: 30
-# disqus: 'demowebsite'
 locale: fr_fr
 lang: fr_fr
 feed_items: 10
@@ -27,20 +26,19 @@ sass:
 # ganalytics: UA-113961478-1
 
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
+  david:
+    name: David
+    display_name: David
     avatar: 'assets/images/sal.png'
-    email: wowthemesnet@gmail.com
+    email: arsla@gageot.net
     web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    twitter: https://twitter.com/dgageot
+    description: "TODO"
 
 # Social
 social:
-  instagram: https://www.instagram.com/bootstrapstarter/
-  facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
-  twitter: https://twitter.com/bstartercom
+  facebook: https://www.facebook.com/ARSLA.asso?fref=ts
+  twitter: https://twitter.com/arsla75
 
 # Plugins
 plugins: 
