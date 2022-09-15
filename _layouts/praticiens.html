@@ -20,8 +20,8 @@ layout: default
   </div>
 
   <ul>
-  {% for category in site.categories %}
-    <li>{{ category[0] }}</li>
+  {% for prat in site.data.praticiens %}
+    <li>{{ prat.nom }} ({{ prat.departement }})</li>
   {% endfor %}
   </ul>
 
