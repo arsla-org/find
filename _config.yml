@@ -1,0 +1,51 @@
+title: ARSLA - Recherche d'un praticien
+email: arsla@gageot.net
+timezone: UTC
+description: >-
+  L'ARSLA reconnue d'utilité publique a pour mission de soutenir la #recherche sur la #SLA,
+  d'accompagner les patients et leurs proches.
+baseurl: "/find"
+url: "https://arsla-org.github.io"
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+# author: Sal
+paginate: 30
+# disqus: 'demowebsite'
+locale: fr_fr
+lang: fr_fr
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+# ganalytics: UA-113961478-1
+
+authors:
+  sal:
+    name: Sal
+    display_name: Sal
+    avatar: 'assets/images/sal.png'
+    email: wowthemesnet@gmail.com
+    web: https://www.wowthemes.net/category/jekyll-themes/
+    twitter: https://twitter.com/wowthemesnet
+    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+
+# Social
+social:
+  instagram: https://www.instagram.com/bootstrapstarter/
+  facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
+  twitter: https://twitter.com/bstartercom
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
