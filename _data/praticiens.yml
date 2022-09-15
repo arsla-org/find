@@ -1,9 +1,12 @@
-- nom: Jean-Michel Docteur
-  specialite: généraliste
-  departement: 75
-- nom: Jacqueline Kiné
+- prenom: Jacqueline 
+  nom: Doront
   specialite: kiné
   departement: 75
-- nom: Sylvie Professeur
+- prenom: Jean-Michel
+  nom: Docteur
+  specialite: généraliste
+  departement: 75
+- prenom: Sylvie
+  nom: Professeur
   specialite: dentiste
   departement: 85

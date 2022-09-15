@@ -15,10 +15,11 @@ https://arsla-org.github.io/find/
 ## Comment ajouter s'ajouter à la liste des praticiens
 
 + Ouvrir cette page: https://github.com/arsla-org/find/edit/main/_data/praticiens.yml
-+ S'ajouter à la liste en respectant une mise en forme standard:
++ S'ajouter en fin de liste en respectant une mise en forme standard:
 
 ```yaml
-- nom: Jacqueline Doront
+- prenom: Jacqueline 
+  nom: Doront
   specialite: kiné
   departement: 75
 ```
