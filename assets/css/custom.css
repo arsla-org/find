@@ -1,6 +1,6 @@
-/* 
-Don't want to use sass and simply modify the stylesheet in the old css fashion? 
-Just customize your theme here.
-================================================== */
-
-body {}
+a.tag {
+    background-color: #3d61fd;
+    color: white;
+    padding: 0 5px;
+    border-radius: 4px;
+}

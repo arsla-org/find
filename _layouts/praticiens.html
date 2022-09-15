@@ -19,10 +19,24 @@ layout: default
     {{content}}
   </div>
 
+  {% assign groups = site.data.praticiens | group_by: page.group %}
+  {% for group in groups %}
+  {% if page.group == 'specialite' %}
+    <p><strong>{{ group.name | capitalize }}</strong></p>
+  {% else %}
+    <p>Département: <strong>{{ group.name }}</strong></p>
+  {% endif %}
   <ul>
-  {% for prat in site.data.praticiens %}
-    <li>{{ prat.nom }} ({{ prat.departement }})</li>
-  {% endfor %}
+    {% for praticien in group.items %}
+    <li>
+      {{ praticien.nom }}
+      {% if page.group == 'specialite' %}
+        <a class="tag" href="#">{{ praticien.departement }}</a>
+      {% else %}
+        <a class="tag" href="#">{{ praticien.specialite }}</a>
+      {% endif %}
+    </li>
+    {% endfor %}
   </ul>
-
+  {% endfor %}
 </div>

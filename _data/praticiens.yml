@@ -1,6 +1,9 @@
 - nom: Jean-Michel Docteur
+  specialite: généraliste
   departement: 75
 - nom: Jacqueline Kiné
+  specialite: kiné
   departement: 75
 - nom: Sylvie Professeur
+  specialite: dentiste
   departement: 85
